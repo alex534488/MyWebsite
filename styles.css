@@ -1,8 +1,105 @@
-* {
-    background-color: black;
+/* CSS STYLE SHEET */
+
+/* GLOBAL STYLE */
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* COMMON STYLE */
+
+h2 {
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+ }
+
+ h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+ }
+
+ h2 span.spacer {
+    padding:0 5px;
+    background: none;
+ }
+
+.logo {
+    float: left;
+}
+
+.ongletZone {
+    padding-top: 150px;
+    width: 100%;
+}
+
+.normalZone {
+}
+
+/* Les images en bande sont 400 pixel de haut, prenne la largeur de l'ecran au centre et sans repetition */
+.imageBande{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Apparence de la zone des onglets */
+.onglet {
+    padding-top: 100px;
+    overflow: hidden; /* s'il y a trop d'onglet, on les cache */
+    float: right
+}
+
+/* Apparence des onglets (bouton) contenu dans la zone */
+.onglet button {
+    background-color: inherit; /* prendra la couleur de .onglet */
+    border: none; /*n'a pas de bordure */
+    outline: none; /*n'aura jamais de contour */
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Quand la sourris est sur un bouton, change la couleur */
+.onglet button:hover {
+    background-color: rgb(136, 130, 130);
+}
+
+/* Une fois l'onglet actif, son apparence peut changer */
+.onglet button.active {
+}
+
+/* Le style du contenu de l'onglet est defini ici */
+.apparenceOnglet {
+    display: none;
+    padding: 6px 12px;
+}
+
+/* UNIQUE STYLE */
+
+#montrealBG
+{
+    background-image: url('montrealView.jpg');
+}
+
+#mobileBG
+{
+    background-image: url('timedrifter.png');
+}
+
+#pcBG
+{
+    background-image: url('1d8.png');
 }
 
 #texte {
-    color : white;
+    color : rgb(0, 0, 0);
     text-align: center;
 }

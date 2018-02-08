@@ -4,14 +4,75 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>My personnal site</title>
+
+    <script type="text/javascript" src="program.js"></script> 
 </head>
 
 <body>
-    <h1 id="texte">Bento Studio</h1>
-    <hr/>
-    <p id="texte">
-        Welcome to Bento Studio Website !
-    </p>
+    <!-- MENU ONGLET -->
+
+    <!-- Creation de la zone ainsi que ses onglets -->
+    <div class="onglet">
+            <button class="ongletLien" onclick="loadOnglet(event, 'Home')">Home</button>
+            <button class="ongletLien" onclick="loadOnglet(event, 'Games')">Games</button>
+            <button class="ongletLien" onclick="loadOnglet(event, 'News')">News</button>
+            <button class="ongletLien" onclick="loadOnglet(event, 'Aboutus')">About us</button>
+            <button class="ongletLien" onclick="loadOnglet(event, 'Contact')">Contact</button>
+    </div>
+
+    <!-- Creation du logo de la compagnie -->
+    <div class="logo">
+            <img src="bentoStudioLogo.png" alt="Bento Logo">
+    </div>
+
+    <!-- Definition des onglets -->
+    <div id="Home" class="apparenceOnglet">
+        <!-- ACCEUIL -->
+        <div class ="ongletZone">
+            <hr/>
+            <div id="montrealBG" class ="imageBande"/div>
+                <h2><span>Newly created studio<span class='spacer'></span><br /><span class='spacer'></span>Established in the region of Montreal</span></h2>
+            </div>
+            <hr/>
+            <div id="mobileBG" class ="imageBande"/div>
+                <h2><span>Creating for Mobile platforms<span class='spacer'></span><br /><span class='spacer'></span>Both for Android and IOS</span></h2>
+            </div>
+            <hr/>
+            <div id="pcBG" class ="imageBande"/div>
+                <h2><span>Also developping for PC and Console<span class='spacer'></span><br /><span class='spacer'></span>New projects coming on Steam soon</span></h2>
+            </div>
+            <hr/>
+        </div>
+    </div>
+    
+    <div id="Games" class="apparenceOnglet">
+        <div class ="ongletZone">
+            <h3 id="texte">Games</h3>
+            <p id="texte">Très bien !</p> 
+        </div>
+    </div>
+    
+    <div id="News" class="apparenceOnglet">
+        <div class ="ongletZone">
+            <h3 id="texte">News</h3>
+            <p id="texte">Wow, Super !</p>
+        </div>
+    </div>
+    <div id="Aboutus" class="apparenceOnglet">
+        <div class ="ongletZone">
+            <h3 id="texte">About us</h3>
+            <p id="texte">Ca fonctionne !</p>
+        </div>
+    </div>
+    
+    <div id="Contact" class="apparenceOnglet">
+        <div class ="ongletZone">
+            <h3 id="texte">Contact</h3>
+            <p id="texte">Très bien !</p> 
+        </div>
+    </div>
+
+
 
     
 </body>
