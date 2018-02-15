@@ -1,7 +1,6 @@
 
 window.onload = function() {
     document.getElementById("Home").style.display = "block";
-    document.getElementById("Home").chil
   };
 
 function loadOnglet(evt, ongletID) {
