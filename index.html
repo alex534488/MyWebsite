@@ -22,7 +22,7 @@
 
     <!-- Creation du logo de la compagnie -->
     <div class="logo">
-            <img src="bentoStudioLogo.png" alt="Bento Logo">
+        <img src="bentoStudioLogo.png" alt="Bento Logo">
     </div>
 
     <!-- Definition des onglets -->
@@ -47,34 +47,85 @@
     
     <div id="Games" class="apparenceOnglet">
         <div class ="ongletZone">
-            <h3 id="texte">Games</h3>
-            <p id="texte">Très bien !</p> 
+            <hr/>
+            <div class= "textZoneRight"/div>
+                <h3 id="texte" align="center">RELEASE FOR SPRING 2018</h3>
+                <p id="texte" align="center">texte blablabla</p>
+            </div>
+            <div id="TDLOGO" class = "imageSideLeft"/div></div>
+            <hr/>
+            <div class= "textZoneRight"/div>
+                <h3 id="texte" align="center">RELEASE FOR SPRING 2018</h3>
+                <p id="texte" align="center">texte blablabla</p>
+            </div>
+            <div id="TDLOGO" class = "imageSideRight"/div></div>
         </div>
     </div>
     
     <div id="News" class="apparenceOnglet">
         <div class ="ongletZone">
-            <h3 id="texte">News</h3>
-            <p id="texte">Wow, Super !</p>
+            <hr/>
+            <h3 id="texte" align="left">News</h3>
+            <p id="texte"  align="left">Wow, Super !</p>
+            <hr/>
+            <h3 id="texte" align="left">News</h3>
+            <p id="texte"  align="left">Wow, Super !</p>
+            <hr/>
+            <h3 id="texte" align="left">News</h3>
+            <p id="texte"  align="left">Wow, Super !</p>
+            <hr/>
+            <h3 id="texte" align="left">News</h3>
+            <p id="texte"  align="left">Wow, Super !</p>
+            <hr/>
         </div>
     </div>
     <div id="Aboutus" class="apparenceOnglet">
         <div class ="ongletZone">
-            <h3 id="texte">About us</h3>
-            <p id="texte">Ca fonctionne !</p>
+            <hr/>
+            <div id="montrealBG" class ="imageBande"/div>
+                <h1 align="left"><span>Newly created studio<span class='spacer'></span><br /><span class='spacer'></span>Established in the region of Montreal</span></h1>
+            </div>
+            <iframe width="840" height="690" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            <div class= "textZoneRight"/div>
+                <h3 id="texte" align="center">ABOUT US</h3>
+                <p id="texte" align="center">our studio do this do that</p>
+            </div>
         </div>
     </div>
     
     <div id="Contact" class="apparenceOnglet">
         <div class ="ongletZone">
-            <h3 id="texte">Contact</h3>
-            <p id="texte">Très bien !</p> 
+            <hr/>
+            <div class= "textZoneRight"/div>
+                <h3 id="texte" align="center">Contact</h3>
+                <p id="texte" align="center">Très bien !</p>
+            </div>
+
+            <div id="map" style="width:400px;height:400px;background:yellow"></div>
+            <script>
+                function myMap() {
+                    var mapOptions = {
+                        center: new google.maps.LatLng(48.4, -71.04),
+                        zoom: 10,
+                        mapTypeId: google.maps.MapTypeId.HYBRID
+                    }
+                    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+            
+            <div class="container">
+                <form action="https://formspree.io/alexandre.blanchet.94@gmail.com" method="POST">
+                    <label for="fname">Your Message</label>
+                    <input type="text" name="name">
+                    <label for="fname">Your Email</label>
+                    <input type="email" name="_replyto">
+                    <input type="submit" value="Send">
+                </form>
+            </div>
         </div>
     </div>
-
-
-
-    
 </body>
 
 </html>
