@@ -5,10 +5,28 @@
 /* GLOBAL STYLE */
 
 body {
-    background-color: rgb(255, 255, 255);
+    /* The image used */
+    background-image: url("bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 /* COMMON STYLE */
+
+
+iframe {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
+}
 
 h2 {
     position: absolute; 
@@ -32,18 +50,24 @@ h2 {
 
  h1 {
     position: absolute; 
-    top: 150px; 
+    top: 100px; 
     left: 0; 
     width: 100%;
     text-align:center;
  }
 
  h1 span { 
-    color: white; 
+    color: rgb(255, 255, 255); 
     font: bold 24px/45px Helvetica, Sans-Serif; 
+    font-size: 40px;
     letter-spacing: -1px;
     background: rgba(0, 0, 0, 0);
-    padding: 10px; 
+    padding: 10px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
  }
 
  h1 span.spacer {
@@ -51,8 +75,30 @@ h2 {
     background: none;
  }
 
+ hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
 .logo {
     float: left;
+}
+
+.alexIMG {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.timeDrifterLogo {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
 }
 
 .ongletZone {
@@ -98,6 +144,26 @@ h2 {
     width: 50%;
 }
 
+.textZoneRightPlus{
+    float: right;
+    width: 75%;
+}
+
+.textZoneLeftMinus{
+    float: left;
+    width: 25%;
+}
+
+.textZoneRightMinus{
+    float: right;
+    width: 35%;
+}
+
+.textZoneLeftPlus{
+    float: left;
+    width: 65%;
+}
+
 
 /* Apparence de la zone des onglets */
 .onglet {
@@ -110,10 +176,11 @@ h2 {
 .onglet button {
     font-family: JapanFont;
     color : rgb(74, 192, 222);
+    font-size: 40px;
     background-color: inherit; /* prendra la couleur de .onglet */
     border: none; /*n'a pas de bordure */
     outline: none; /*n'aura jamais de contour */
-    padding: 14px 16px;
+    padding: 5px 16px;
     transition: 0.3s;
 }
 
@@ -131,6 +198,15 @@ h2 {
     display: none;
     padding: 6px 12px;
 }
+
+.separatorDot
+{
+  display:block;
+  border:none;
+  height:25px;
+  background-image:url('hr.jpg');
+} 
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -166,6 +242,22 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
 /* UNIQUE STYLE */
 
 #montrealBG
@@ -186,6 +278,16 @@ input[type=submit]:hover {
 #TDLOGO
 {
     background-image: url('TD_LOGO.png');
+}
+
+#studioBG
+{
+    background-image: url('studioView.jpg');
+}
+
+#alexIMAGE
+{
+    background-image: url('photo_profile.jpg');
 }
 
 #texte {
