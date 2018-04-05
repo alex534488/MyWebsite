@@ -2,7 +2,10 @@
 
 @font-face { font-family: JapanFont; src: url('Japanese 3017.otf'); } 
 
-/* GLOBAL STYLE */
+@media screen and (max-width: 9999999px){
+
+
+    /* GLOBAL STYLE */
 
 body {
     /* The image used */
@@ -293,4 +296,308 @@ input[type=submit]:hover {
 #texte {
     color : rgb(74, 192, 222);
     font-family: JapanFont;
+}
+  
+  
+}
+
+/* MOBILE !!!! */
+
+@media screen and (max-width: 360px){
+
+
+    /* GLOBAL STYLE */
+
+body {
+    /* The image used */
+    background-image: url("bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/* COMMON STYLE */
+
+
+iframe {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: #777;
+    display:block;
+}
+
+h2 {
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+ }
+
+ h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+ }
+
+ h2 span.spacer {
+    padding:0 5px;
+    background: none;
+ }
+
+ h1 {
+    position: absolute; 
+    top: 100px; 
+    left: 0; 
+    width: 100%;
+    text-align:center;
+ }
+
+ h1 span { 
+    color: rgb(255, 255, 255); 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    font-size: 40px;
+    letter-spacing: -1px;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+ }
+
+ h1 span.spacer {
+    padding:0 5px;
+    background: none;
+ }
+
+ hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+.logo {
+    float: left;
+}
+
+.alexIMG {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.timeDrifterLogo {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+
+.ongletZone {
+    padding-top: 150px;
+    width: 100%;
+}
+
+/* Les images en bande sont 400 pixel de haut, prenne la largeur de l'ecran au centre et sans repetition */
+.imageBande{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imageSideLeft{
+    position: relative;
+    height: 900px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.imageSideRight{
+    position: relative;
+    height: 900px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.textZoneLeft{
+    float: left;
+    width: 50%;
+}
+
+.textZoneRight{
+    float: right;
+    width: 50%;
+}
+
+.textZoneRightPlus{
+    float: right;
+    width: 75%;
+}
+
+.textZoneLeftMinus{
+    float: left;
+    width: 25%;
+}
+
+.textZoneRightMinus{
+    float: right;
+    width: 35%;
+}
+
+.textZoneLeftPlus{
+    float: left;
+    width: 65%;
+}
+
+
+/* Apparence de la zone des onglets */
+.onglet {
+    padding-top: 100px;
+    overflow: hidden; /* s'il y a trop d'onglet, on les cache */
+    float: right
+}
+
+/* Apparence des onglets (bouton) contenu dans la zone */
+.onglet button {
+    font-family: JapanFont;
+    color : rgb(74, 192, 222);
+    font-size: 40px;
+    background-color: inherit; /* prendra la couleur de .onglet */
+    border: none; /*n'a pas de bordure */
+    outline: none; /*n'aura jamais de contour */
+    padding: 5px 16px;
+    transition: 0.3s;
+}
+
+/* Quand la sourris est sur un bouton, change la couleur */
+.onglet button:hover {
+    background-color: rgb(136, 130, 130);
+}
+
+/* Une fois l'onglet actif, son apparence peut changer */
+.onglet button.active {
+}
+
+/* Le style du contenu de l'onglet est defini ici */
+.apparenceOnglet {
+    display: none;
+    padding: 6px 12px;
+}
+
+.separatorDot
+{
+  display:block;
+  border:none;
+  height:25px;
+  background-image:url('hr.jpg');
+} 
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+/* UNIQUE STYLE */
+
+#montrealBG
+{
+    background-image: url('montrealView.jpg');
+}
+
+#mobileBG
+{
+    background-image: url('timedrifter.png');
+}
+
+#pcBG
+{
+    background-image: url('1d8.PNG');
+}
+
+#TDLOGO
+{
+    background-image: url('TD_LOGO.png');
+}
+
+#studioBG
+{
+    background-image: url('studioView.jpg');
+}
+
+#alexIMAGE
+{
+    background-image: url('photo_profile.jpg');
+}
+
+#texte {
+    color : rgb(74, 192, 222);
+    font-family: JapanFont;
+}
+  
+  
 }
