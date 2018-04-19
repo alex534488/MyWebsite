@@ -9,6 +9,33 @@
 
 @media (min-width: 1281px) {
   
+    #BentoLogo{
+        content:url('bentoStudioLogo.png');
+        }
+
+    .CCCButton{
+        width: 300px; 
+        padding: 20px; 
+        cursor: pointer; 
+        box-shadow: 6px 6px 5px #999; 
+        -webkit-box-shadow: 6px 6px 5px #999; 
+        -moz-box-shadow: 6px 6px 5px #999; 
+        font-weight: bold; background: rgb(74, 192, 222);
+        color: #000; border-radius: 10px; 
+        border: 1px solid #999; 
+        font-size: 150%;
+    }
+
+    .bottomSection{
+        padding: 20px; 
+    }
+
+    #map {
+        width:400px;
+        height:550px;
+        padding-left:500px;
+    }
+
         /* GLOBAL STYLE */
 
     body {
@@ -311,6 +338,33 @@
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
+    #BentoLogo{
+        content:url('bentoStudioLogo.png');
+        }
+
+    .CCCButton{
+        width: 300px; 
+        padding: 20px; 
+        cursor: pointer; 
+        box-shadow: 6px 6px 5px #999; 
+        -webkit-box-shadow: 6px 6px 5px #999; 
+        -moz-box-shadow: 6px 6px 5px #999; 
+        font-weight: bold; background: rgb(74, 192, 222);
+        color: #000; border-radius: 10px; 
+        border: 1px solid #999; 
+        font-size: 150%;
+    }
+
+    .bottomSection{
+        padding: 20px; 
+    }
+
+    #map {
+        width:400px;
+        height:550px;
+        padding-left:500px;
+    }
+
         /* GLOBAL STYLE */
 
     body {
@@ -614,6 +668,33 @@
   
   @media (min-width: 768px) and (max-width: 1024px) {
     
+    #BentoLogo{
+        content:url('bentoStudioLogo_Mobile_Landscape.png');
+        }
+
+    .CCCButton{
+        width: 300px; 
+        padding: 20px; 
+        cursor: pointer; 
+        box-shadow: 6px 6px 5px #999; 
+        -webkit-box-shadow: 6px 6px 5px #999; 
+        -moz-box-shadow: 6px 6px 5px #999; 
+        font-weight: bold; background: rgb(74, 192, 222);
+        color: #000; border-radius: 10px; 
+        border: 1px solid #999; 
+        font-size: 150%;
+    }
+
+    .bottomSection{
+        padding: 20px; 
+    }
+
+    #map {
+        width:400px;
+        height:550px;
+        padding-left:500px;
+    }
+
         /* GLOBAL STYLE */
 
     body {
@@ -917,6 +998,33 @@
   
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
+    #BentoLogo{
+        content:url('bentoStudioLogo_Mobile_Landscape.png');
+        }
+
+    .CCCButton{
+        width: 300px; 
+        padding: 20px; 
+        cursor: pointer; 
+        box-shadow: 6px 6px 5px #999; 
+        -webkit-box-shadow: 6px 6px 5px #999; 
+        -moz-box-shadow: 6px 6px 5px #999; 
+        font-weight: bold; background: rgb(74, 192, 222);
+        color: #000; border-radius: 10px; 
+        border: 1px solid #999; 
+        font-size: 150%;
+    }
+
+    .bottomSection{
+        padding: 20px; 
+    }
+
+    #map {
+        width:400px;
+        height:550px;
+        padding-left:500px;
+    }
+
         /* GLOBAL STYLE */
 
     body {
@@ -1220,298 +1328,362 @@
   
   @media (min-width: 481px) and (max-width: 767px) {
     
+    .CCCButton{
+        width: 250px; 
+        padding: 20px; 
+        cursor: pointer; 
+        box-shadow: 6px 6px 5px #999; 
+        -webkit-box-shadow: 6px 6px 5px #999; 
+        -moz-box-shadow: 6px 6px 5px #999; 
+        font-weight: bold; background: rgb(74, 192, 222);
+        color: #000; border-radius: 10px; 
+        border: 1px solid #999; 
+        font-size: 150%;
+    }
+
+    .bottomSection{
+        padding: 20px; 
+    }
+
+    #map {
+        width:400px;
+        height:550px;
+        padding-left:500px;
+    }
+
         /* GLOBAL STYLE */
 
-    body {
-        /* The image used */
-        background-image: url("bg.jpg");
-
-        /* Full height */
-        height: 100%; 
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: repeat-y;
-        background-size: cover;
-    }
-
-    /* COMMON STYLE */
-
-
-    iframe {
-        width: 560px;
-        height: 315px;
-        margin: 0 auto;
-        background-color: #777;
+        body {
+            /* The image used */
+            background-image: url("bg.jpg");
+    
+            /* Full height */
+            height: 100%; 
+    
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: repeat-y;
+            background-size: cover;
+        }
+    
+        /* COMMON STYLE */
+    
+    
+        iframe {
+            width: 560px;
+            height: 315px;
+            margin: 0 auto;
+            background-color: #777;
+            display:block;
+        }
+    
+        h2 {
+            position: absolute; 
+            top: 200px; 
+            left: 0; 
+            width: 100%; 
+        }
+    
+        h2 span { 
+            color: white; 
+            font: bold 17px/28px Helvetica, Sans-Serif; 
+            letter-spacing: -1px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 6px; 
+        }
+    
+        h2 span.spacer {
+            padding:0 5px;
+            background: none;
+        }
+    
+        h1 {
+            position: absolute; 
+            top: 100px; 
+            left: 0; 
+            width: 100%;
+            text-align:center;
+        }
+    
+        h1 span { 
+            color: rgb(255, 255, 255); 
+            font: bold 24px/45px Helvetica, Sans-Serif; 
+            font-size: 40px;
+            letter-spacing: -1px;
+            background: rgba(0, 0, 0, 0);
+            padding: 10px;
+            text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000; 
+        }
+    
+        h1 span.spacer {
+            padding:0 5px;
+            background: none;
+        }
+    
+        h3 {
+            font-size:25px;
+        }
+    
+        hr.style2 {
+            border-top: 3px double #8c8b8b;
+        }
+    
+        iframe {
+            max-width: 90vw;
+            max-height: 56.25vw;
+        }
+    
+        .logo {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 1;
+            left: 0;
+            order:1;
+            z-index: 2;
+        }
+    
+        .alexIMG {
+            position: relative;
+            height: 400px;
+            width: 100%;
+            padding-left: 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+        }
+    
+        .timeDrifterLogo {
+            position: relative;
+            height: 600px;
+            width: 600px;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: auto;
+        }
+    
+        .ongletZone {
+            padding-top: 200px;
+            width: 100%;
+        }
+    
+        /* Les images en bande sont 400 pixel de haut, prenne la largeur de l'ecran au centre et sans repetition */
+        .imageBande{
+            position: relative;
+            height: 400px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            z-index: -1;
+        }
+    
+        .imageSideLeft{
+            position: relative;
+            height: 900px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+        }
+    
+        .imageSideRight{
+            position: relative;
+            height: 900px;
+            width: 50%;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: cover;
+        }
+    
+        .textZoneLeft{
+    
+        }
+    
+        .textZoneRight{
+    
+        }
+    
+        .textZoneRightPlus{
+            float: right;
+            width: 75%;
+        }
+    
+        .textZoneLeftMinus{
+            float: left;
+            width: 25%;
+        }
+    
+        .textZoneRightMinus{
+    
+        }
+    
+        .textZoneLeftPlus{
+            float: left;
+            width: 100%;
+        }
+    
+    
+        /* Apparence de la zone des onglets */
+        .onglet {
+            padding-top: 150px;
+            overflow: hidden; /* s'il y a trop d'onglet, on les cache */
+            float: right
+        }
+    
+        /* Apparence des onglets (bouton) contenu dans la zone */
+        .onglet button {
+            font-family: JapanFont;
+            color : rgb(74, 192, 222);
+            font-size: 4.5vmax;
+            background-color: inherit; /* prendra la couleur de .onglet */
+            border: none; /*n'a pas de bordure */
+            outline: none; /*n'aura jamais de contour */
+            padding: 10px 5px;
+            transition: 0.3s;
+        }
+    
+        /* Quand la sourris est sur un bouton, change la couleur */
+        .onglet button:hover {
+            background-color: rgb(136, 130, 130);
+        }
+    
+        /* Une fois l'onglet actif, son apparence peut changer */
+        .onglet button.active {
+        }
+    
+        /* Le style du contenu de l'onglet est defini ici */
+        .apparenceOnglet {
+            display: none;
+            padding: 6px 12px;
+        }
+    
+        .separatorDot
+        {
         display:block;
-    }
+        border:none;
+        height:25px;
+        background-image:url('hr.jpg');
+        } 
+    
+    
+        /* Style inputs with type="text", select elements and textareas */
+        input[type=text], select, textarea {
+            width: 100%; /* Full width */
+            padding: 12px; /* Some padding */  
+            border: 1px solid #ccc; /* Gray border */
+            border-radius: 4px; /* Rounded borders */
+            box-sizing: border-box; /* Make sure that padding and width stays in place */
+            margin-top: 6px; /* Add a top margin */
+            margin-bottom: 16px; /* Bottom margin */
+            resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+    
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    
+        /* Add a background color and some padding around the form */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    
+        .rotate90 {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+    
+        .rotate270 {
+            -webkit-transform: rotate(270deg);
+            -moz-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+    
+        /* UNIQUE STYLE */
+    
+        #map {
+            width:100px;
+            height:550px;
+            padding-left:500px;
+        }
+    
+        #flex { display: flex; flex-direction: column; }
+    
+        #montrealBG
+        {
+            background-image: url('montrealView.jpg');
+        }
+    
+        #mobileBG
+        {
+            background-image: url('timedrifter.png');
+        }
+    
+        #pcBG
+        {
+            background-image: url('1d8.PNG');
+        }
+    
+        #TDLOGO
+        {
+            background-image: url('TD_LOGO_Mobile_Landscape.png');
+        }
+    
+        #studioBG
+        {
+            background-image: url('studioView.jpg');
+        }
+    
+        #alexIMAGE
+        {
+            background-image: url('photo_profile.jpg');
+        }
+    
+        #texte {
+            color : rgb(74, 192, 222);
+            font-family: JapanFont;
+        }
 
-    h2 {
-        position: absolute; 
-        top: 200px; 
-        left: 0; 
-        width: 100%; 
-    }
-
-    h2 span { 
-        color: white; 
-        font: bold 24px/45px Helvetica, Sans-Serif; 
-        letter-spacing: -1px;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 10px; 
-    }
-
-    h2 span.spacer {
-        padding:0 5px;
-        background: none;
-    }
-
-    h1 {
-        position: absolute; 
-        top: 100px; 
-        left: 0; 
-        width: 100%;
-        text-align:center;
-    }
-
-    h1 span { 
-        color: rgb(255, 255, 255); 
-        font: bold 24px/45px Helvetica, Sans-Serif; 
-        font-size: 40px;
-        letter-spacing: -1px;
-        background: rgba(0, 0, 0, 0);
-        padding: 10px;
-        text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000; 
-    }
-
-    h1 span.spacer {
-        padding:0 5px;
-        background: none;
-    }
-
-    hr.style2 {
-        border-top: 3px double #8c8b8b;
-    }
-
-    .logo {
-        float: left;
-    }
-
-    .alexIMG {
-        position: relative;
-        height: 400px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
-    }
-
-    .timeDrifterLogo {
-        position: relative;
-        height: 500px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: auto;
-    }
-
-    .ongletZone {
-        padding-top: 150px;
-        width: 100%;
-    }
-
-    /* Les images en bande sont 400 pixel de haut, prenne la largeur de l'ecran au centre et sans repetition */
-    .imageBande{
-        position: relative;
-        height: 400px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
-    .imageSideLeft{
-        position: relative;
-        height: 900px;
-        width: 50%;
-        background-repeat: no-repeat;
-        background-position: left;
-        background-size: cover;
-    }
-
-    .imageSideRight{
-        position: relative;
-        height: 900px;
-        width: 50%;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
-    }
-
-    .textZoneLeft{
-        float: left;
-        width: 50%;
-    }
-
-    .textZoneRight{
-        float: right;
-        width: 50%;
-    }
-
-    .textZoneRightPlus{
-        float: right;
-        width: 75%;
-    }
-
-    .textZoneLeftMinus{
-        float: left;
-        width: 25%;
-    }
-
-    .textZoneRightMinus{
-        float: right;
-        width: 35%;
-    }
-
-    .textZoneLeftPlus{
-        float: left;
-        width: 65%;
-    }
-
-
-    /* Apparence de la zone des onglets */
-    .onglet {
-        padding-top: 100px;
-        overflow: hidden; /* s'il y a trop d'onglet, on les cache */
-        float: right
-    }
-
-    /* Apparence des onglets (bouton) contenu dans la zone */
-    .onglet button {
-        font-family: JapanFont;
-        color : rgb(74, 192, 222);
-        font-size: 40px;
-        background-color: inherit; /* prendra la couleur de .onglet */
-        border: none; /*n'a pas de bordure */
-        outline: none; /*n'aura jamais de contour */
-        padding: 5px 16px;
-        transition: 0.3s;
-    }
-
-    /* Quand la sourris est sur un bouton, change la couleur */
-    .onglet button:hover {
-        background-color: rgb(136, 130, 130);
-    }
-
-    /* Une fois l'onglet actif, son apparence peut changer */
-    .onglet button.active {
-    }
-
-    /* Le style du contenu de l'onglet est defini ici */
-    .apparenceOnglet {
-        display: none;
-        padding: 6px 12px;
-    }
-
-    .separatorDot
-    {
-    display:block;
-    border:none;
-    height:25px;
-    background-image:url('hr.jpg');
-    } 
-
-
-    /* Style inputs with type="text", select elements and textareas */
-    input[type=text], select, textarea {
-        width: 100%; /* Full width */
-        padding: 12px; /* Some padding */  
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16px; /* Bottom margin */
-        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-    }
-
-    /* Style the submit button with a specific background color etc */
-    input[type=submit] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-
-    /* When moving the mouse over the submit button, add a darker green color */
-    input[type=submit]:hover {
-        background-color: #45a049;
-    }
-
-    /* Add a background color and some padding around the form */
-    .container {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
-
-    .rotate90 {
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
-
-    .rotate270 {
-        -webkit-transform: rotate(270deg);
-        -moz-transform: rotate(270deg);
-        -o-transform: rotate(270deg);
-        -ms-transform: rotate(270deg);
-        transform: rotate(270deg);
-    }
-
-    /* UNIQUE STYLE */
-
-    #montrealBG
-    {
-        background-image: url('montrealView.jpg');
-    }
-
-    #mobileBG
-    {
-        background-image: url('timedrifter.png');
-    }
-
-    #pcBG
-    {
-        background-image: url('1d8.PNG');
-    }
-
-    #TDLOGO
-    {
-        background-image: url('TD_LOGO.png');
-    }
-
-    #studioBG
-    {
-        background-image: url('studioView.jpg');
-    }
-
-    #alexIMAGE
-    {
-        background-image: url('photo_profile.jpg');
-    }
-
-    #texte {
-        color : rgb(74, 192, 222);
-        font-family: JapanFont;
-    }
+        #BentoLogo{
+            content:url('bentoStudioLogo_Mobile_Landscape.png');
+            }
+        
     
         
   }
@@ -1524,6 +1696,27 @@
   @media (min-width: 320px) and (max-width: 480px) {
     
         /* GLOBAL STYLE */
+
+        #BentoLogo{
+            content:url('bentoStudioLogo_Mobile.png');
+            }
+
+        .CCCButton{
+            width: 140px; 
+            padding: 10px; 
+            cursor: pointer; 
+            box-shadow: 6px 6px 5px #999; 
+            -webkit-box-shadow: 6px 6px 5px #999; 
+            -moz-box-shadow: 6px 6px 5px #999; 
+            font-weight: bold; background: rgb(74, 192, 222);
+            color: #000; border-radius: 10px; 
+            border: 1px solid #999; 
+            font-size: 75%;
+        }
+    
+        .bottomSection{
+            padding: 20px; 
+        }
 
     body {
         /* The image used */
@@ -1596,8 +1789,17 @@
         background: none;
     }
 
+    h3 {
+        font-size:25px;
+    }
+
     hr.style2 {
         border-top: 3px double #8c8b8b;
+    }
+
+    iframe {
+        max-width: 90vw;
+        max-height: 56.25vw;
     }
 
     .logo {
@@ -1621,12 +1823,14 @@
         bottom: 1;
         left: 0;
         order:1;
+        z-index: 2;
     }
 
     .alexIMG {
         position: relative;
         height: 400px;
         width: 100%;
+        padding-left: 10px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: auto;
@@ -1676,13 +1880,11 @@
     }
 
     .textZoneLeft{
-        float: left;
-        width: 50%;
+
     }
 
     .textZoneRight{
-        float: right;
-        width: 50%;
+
     }
 
     .textZoneRightPlus{
@@ -1696,13 +1898,12 @@
     }
 
     .textZoneRightMinus{
-        float: right;
-        width: 35%;
+
     }
 
     .textZoneLeftPlus{
         float: left;
-        width: 65%;
+        width: 100%;
     }
 
 
@@ -1716,7 +1917,7 @@
     /* Apparence des onglets (bouton) contenu dans la zone */
     .onglet button {
         font-family: JapanFont;
-        color : rgb(255, 0, 0);
+        color : rgb(74, 192, 222);
         font-size: 2.45vmax;
         background-color: inherit; /* prendra la couleur de .onglet */
         border: none; /*n'a pas de bordure */
@@ -1801,6 +2002,12 @@
 
     /* UNIQUE STYLE */
 
+    #map {
+        width:100px;
+        height:550px;
+        padding-left:250px;
+    }
+
     #flex { display: flex; flex-direction: column; }
 
     #montrealBG
@@ -1820,7 +2027,7 @@
 
     #TDLOGO
     {
-        background-image: url('TD_LOGO.png');
+        background-image: url('TD_LOGO_Mobile.png');
     }
 
     #studioBG
@@ -1837,6 +2044,5 @@
         color : rgb(74, 192, 222);
         font-family: JapanFont;
     }
-    
     
   }
